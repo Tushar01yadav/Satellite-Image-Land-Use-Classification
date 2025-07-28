@@ -4,7 +4,10 @@ import numpy as np
 import tensorflow as tf
 import base64
 
+import h5py
 
+with h5py.File("satellite.h5", "r") as f:
+    st.write(list(f.keys()))
 
 st.set_page_config(page_title="Satellite Image Classifier", layout="centered")
 
