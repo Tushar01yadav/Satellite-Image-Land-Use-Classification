@@ -3,10 +3,7 @@ from PIL import Image
 import numpy as np
 import tensorflow as tf
 import base64
-import os
-import streamlit as st
 
-st.write("Files in current directory:", os.listdir())
 
 
 st.set_page_config(page_title="Satellite Image Classifier", layout="centered")
