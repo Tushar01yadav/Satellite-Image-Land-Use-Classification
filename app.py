@@ -51,7 +51,7 @@ if Predict:
    
 
     # Load model
-    model = tf.keras.models.load_model("satellite.h5")
+    model = tf.keras.models.load_model("satellite.h5" , compile=False)
 
     # Preprocess image (adjust as per your model's requirements)
     img_resized = image.resize((64, 64))
