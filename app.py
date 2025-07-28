@@ -11,7 +11,7 @@ def get_base64_of_local_image(image_path):
     with open(image_path, "rb") as img_file:
         return base64.b64encode(img_file.read()).decode()
 
-img_base64 = get_base64_of_local_image("satellite.jpg")
+img_base64 = get_base64_of_local_image("Satellite.jpg")
 
 st.markdown(
     f"""
