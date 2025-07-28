@@ -1,0 +1,38 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# Ignore model and dataset files
+*.h5
+*.pkl
+*.joblib
+*.sav
+*.csv
+*.npz
+*.npy
+*.tfrecord
+EuroSATallBands/
+data/
+dataset/
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# PyCharm project files
+.idea/
+
+# Logs and cache
+*.log
+.cache/
+*.pid
+.streamlit/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
