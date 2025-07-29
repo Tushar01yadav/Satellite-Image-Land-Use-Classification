@@ -63,3 +63,4 @@ if uploaded_file is not None:
     model = load_model()
     label, confidence = classify(model, image)
     st.success(f"Prediction: {label} ({confidence:.2%} confidence)")
+st.write(type(image))
