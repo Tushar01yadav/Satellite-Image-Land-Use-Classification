@@ -12,6 +12,9 @@ A CNN-powered deep learning project that classifies satellite images into differ
 - 🎛️ **Interface**: A Streamlit-based web app allows users to upload satellite images and instantly receive predictions.
 
 ---
+Live demo 🌐 [https://satellite-image-land-use-classification-69rftwjhjtdxvbawwpxvj5.streamlit.app/]
+<img width="958" height="419" alt="s1" src="https://github.com/user-attachments/assets/8016e8cf-584d-4ed9-82b8-976bfb6d8cc6" />
+<img width="959" height="499" alt="s2" src="https://github.com/user-attachments/assets/42ee6e3f-59ea-4f48-995b-07c793532786" />
 
 ## 📌 Features
 
