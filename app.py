@@ -57,10 +57,10 @@ def classify(model, image: Image.Image):
     return class_label, confidence
 
 if uploaded_file is not None:
+    uploaded_file.seek(0)  
     image = Image.open(uploaded_file)
     st.image(image, caption="Uploaded Image", use_container_width=True)
     
     model = load_model()
     label, confidence = classify(model, image)
     st.success(f"Prediction: {label} ({confidence:.2%} confidence)")
-st.write(type(image))
