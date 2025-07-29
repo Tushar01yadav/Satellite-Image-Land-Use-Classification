@@ -59,7 +59,7 @@ def classify(model, image: Image.Image):
 if uploaded_file is not None:
     uploaded_file.seek(0)  
     image = Image.open(uploaded_file)
-    st.image(image, caption="Uploaded Image", use_container_width=True)
+    st.image(image, caption="Uploaded Image")
     
     model = load_model()
     label, confidence = classify(model, image)
