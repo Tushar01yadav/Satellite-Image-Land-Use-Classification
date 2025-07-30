@@ -46,6 +46,11 @@ Live demo 🌐 [https://satellite-image-land-use-classification-69rftwjhjtdxvbaw
 
 - **Name**: [EuroSAT RGB Dataset](https://github.com/phelber/eurosat)
 
+👨‍💻 Author
+Tushar Yadav
+📍 Gurugram, Haryana, India
+🎓 Computer Science Graduate | AI/ML Enthusiast
+🔗 LinkedIn https://www.linkedin.com/in/tushar-yadav-5829bb353/
 
 
 
