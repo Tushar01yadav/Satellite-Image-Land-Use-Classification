@@ -14,7 +14,7 @@ A CNN-powered deep learning project that classifies satellite images into differ
 ---
 Live demo 🌐
 ⚠️ **Note:** This app is deployed on Streamlit’s free tier and may go to sleep due to inactivity.  
-If the app seems slow or unresponsive, please **click “Backup this app”** or refresh the page to get it started again.  
+If the app seems unresponsive, please **click “Backup this app”** or refresh the page to get it started again.  
 Thank you for your patience! 🚀
 [https://satellite-image-land-use-classification-69rftwjhjtdxvbawwpxvj5.streamlit.app/]
 <img width="958" height="419" alt="s1" src="https://github.com/user-attachments/assets/8016e8cf-584d-4ed9-82b8-976bfb6d8cc6" />
